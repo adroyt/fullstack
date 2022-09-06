@@ -7,7 +7,7 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 | [Supabase]                   | Database                      |
 | [tRPC] with [tRPC-sveltekit] | Type-safe endpoints           |
 | [Prisma]                     | Type-safe ORM                 |
-| [Lucia]                      | Auth layer                    |
+| [Lucia]                      | Sveltekit Auth layer          |
 | [DaisyUI]                    | Tailwindcss component Library |
 
 ## Creating a project
