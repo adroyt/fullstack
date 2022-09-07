@@ -298,9 +298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^1.0.0-next.471":
-  version: 1.0.0-next.471
-  resolution: "@sveltejs/kit@npm:1.0.0-next.471"
+"@sveltejs/kit@npm:^1.0.0-next.476":
+  version: 1.0.0-next.476
+  resolution: "@sveltejs/kit@npm:1.0.0-next.476"
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.0.5
     cookie: ^0.5.0
@@ -319,7 +319,7 @@ __metadata:
     vite: ^3.1.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 5357f9b24825e57412274d08404f52537a105fa5a17c7bee734ba54558477f8a7e2ed449a96263ffc0ffab8ea530725f6abd3c7b81eb966bf2106049bccd63b6
+  checksum: cdff38d8dbb1c12fe48bf1ddac5250b46d0aae324c947e35716e0a9c5fe5af19f34e7ed764d1c96a9f1348d268492506bdd6d92b28ca532c0be4fd2a075db478
   languageName: node
   linkType: hard
 
@@ -3216,7 +3216,7 @@ __metadata:
     "@prisma/client": ^4.3.1
     "@supabase/supabase-js": ^1.35.6
     "@sveltejs/adapter-auto": ^1.0.0-next.71
-    "@sveltejs/kit": ^1.0.0-next.471
+    "@sveltejs/kit": ^1.0.0-next.476
     "@trpc/client": ^9.27.2
     "@trpc/server": ^9.27.2
     autoprefixer: ^10.4.8
