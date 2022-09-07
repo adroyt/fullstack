@@ -9,6 +9,8 @@ declare namespace App {
 }
 
 declare namespace Lucia {
-  interface UserData
-    extends Omit<import("@prisma/client").User, "id" | "identifier_token" | "hashed_password"> {}
+  type UserData = Omit<
+    import("@prisma/client").User,
+    "id" | "identifier_token" | "hashed_password"
+  >;
 }
