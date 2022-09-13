@@ -1,7 +1,7 @@
 import type { Handle } from "@sveltejs/kit";
 import { appRouter } from "$trpc";
 import { auth } from "$lib/lucia";
-import { createContext } from "$lib/trpc";
+import { createContext } from "$trpc/app-router";
 import { createTRPCHandle } from "trpc-sveltekit";
 import { sequence } from "@sveltejs/kit/hooks";
 

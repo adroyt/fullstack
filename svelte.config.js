@@ -12,7 +12,7 @@ const config = {
   kit: {
     adapter: adapter(),
     alias: {
-      $trpc: "src/lib/trpc/"
+      $trpc: "src/trpc/"
     }
   }
 };
