@@ -5,15 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@babel/runtime@npm:^7.9.0":
-  version: 7.19.0
-  resolution: "@babel/runtime@npm:7.19.0"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: fa69c351bb05e1db3ceb9a02fdcf620c234180af68cdda02152d3561015f6d55277265d3109815992f96d910f3db709458cae4f8df1c3def66f32e0867d82294
-  languageName: node
-  linkType: hard
-
 "@cloudflare/workers-types@npm:^3.14.0":
   version: 3.14.1
   resolution: "@cloudflare/workers-types@npm:3.14.1"
@@ -296,14 +287,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^1.0.0-next.73":
-  version: 1.0.0-next.73
-  resolution: "@sveltejs/adapter-auto@npm:1.0.0-next.73"
+"@sveltejs/adapter-auto@npm:^1.0.0-next.74":
+  version: 1.0.0-next.74
+  resolution: "@sveltejs/adapter-auto@npm:1.0.0-next.74"
   dependencies:
     "@sveltejs/adapter-cloudflare": 1.0.0-next.33
     "@sveltejs/adapter-netlify": 1.0.0-next.77
-    "@sveltejs/adapter-vercel": 1.0.0-next.74
-  checksum: 028fbd315e3a47818b3fb152c91cd638c326ebf6c408f164009122361bc33a91d4680e5fa46c2858491c295a2dea0e75be429b81c0974d907c8776a4834409f1
+    "@sveltejs/adapter-vercel": 1.0.0-next.75
+  checksum: afdebcd54280d733f093986ca949a10675188b62f63703c7ef2c75975e7d65657fefa56793b8bf12b363acab18647fbee56a170e4012168a31ee047aaaab8950
   languageName: node
   linkType: hard
 
@@ -329,19 +320,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-vercel@npm:1.0.0-next.74":
-  version: 1.0.0-next.74
-  resolution: "@sveltejs/adapter-vercel@npm:1.0.0-next.74"
+"@sveltejs/adapter-vercel@npm:1.0.0-next.75":
+  version: 1.0.0-next.75
+  resolution: "@sveltejs/adapter-vercel@npm:1.0.0-next.75"
   dependencies:
     "@vercel/nft": ^0.22.0
     esbuild: ^0.15.6
-  checksum: 6d9a03ca6414a5f9ad6d88917747d82bcf3c56e2825c87c75b043b4100732e7cc53293cf39f68dd5fc83ca8f3cc582ccf900a85cd6d9cb7ed54269609e87d6bb
+  checksum: aa9c5e44da4db7e1dd584cbfaa5f4c1f5a4d2f716992ab4dd88a5e351167067008bb8f8f1968756452ab18555168039c1ec71260765d72a94319ebfdf5baae0b
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^1.0.0-next.481":
-  version: 1.0.0-next.481
-  resolution: "@sveltejs/kit@npm:1.0.0-next.481"
+"@sveltejs/kit@npm:^1.0.0-next.483":
+  version: 1.0.0-next.483
+  resolution: "@sveltejs/kit@npm:1.0.0-next.483"
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.0.5
     cookie: ^0.5.0
@@ -360,7 +351,7 @@ __metadata:
     vite: ^3.1.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 2c4c8285b539474e6eb439a53b421c705cd8f19327d77cdc6c59c9253d80f8fa70c8bdc8019c4182e97b55107411d28b3b7d87d51c36c59255eeb3218cde37fb
+  checksum: 2c715fcd44f318a3564f574451229b451f848940385fd3b081d9518050cc2e13da8db8f3092e93db47c1632a4c1766e4066a65b7224e050f6a7a602c0518a5a7
   languageName: node
   linkType: hard
 
@@ -408,21 +399,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trpc/client@npm:^9.27.2":
-  version: 9.27.2
-  resolution: "@trpc/client@npm:9.27.2"
-  dependencies:
-    "@babel/runtime": ^7.9.0
+"@trpc/client@npm:next":
+  version: 10.0.0-proxy-alpha.76
+  resolution: "@trpc/client@npm:10.0.0-proxy-alpha.76"
   peerDependencies:
-    "@trpc/server": 9.27.2
-  checksum: a404048151bd657fea08af3d12e7a6038271f11e777c4fbc71affa24c40a0e954f7a7df5d84ca2d0d0039b43ca0576c53d9c604b2c2ade9d6d7b0b877c4ebd43
+    "@trpc/server": 10.0.0-proxy-alpha.76
+  checksum: f7cf53eccc6927e38f3ee075f5c6660d97e1cb39b676492c13b6399357bd76c50195318ae6ff89abf716196deb6d945c583e2b1f68fa7df8b0ac9361079df0d3
   languageName: node
   linkType: hard
 
-"@trpc/server@npm:^9.27.2":
-  version: 9.27.2
-  resolution: "@trpc/server@npm:9.27.2"
-  checksum: b5658b0f5a50ac2c474ceff888df29d0c0924d09a2980b83c62adbe90be8e985737a6d3c60fa817b702b68b20252d0d132389e028af5d6f0ce53ae1e5a8704b8
+"@trpc/server@npm:next":
+  version: 10.0.0-proxy-alpha.76
+  resolution: "@trpc/server@npm:10.0.0-proxy-alpha.76"
+  checksum: 3b43f55ae3e1bc679de3d10202a747cb5a412d15e4e2987bfb19834248f4a917b7a0ac667d8acd5be44872782b35f9f90676d6b32f326f8a10d4538937260fab
   languageName: node
   linkType: hard
 
@@ -777,12 +766,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.9":
-  version: 10.4.9
-  resolution: "autoprefixer@npm:10.4.9"
+"autoprefixer@npm:^10.4.11":
+  version: 10.4.11
+  resolution: "autoprefixer@npm:10.4.11"
   dependencies:
     browserslist: ^4.21.3
-    caniuse-lite: ^1.0.30001394
+    caniuse-lite: ^1.0.30001399
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -791,7 +780,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: ea5e2067d36ff170af97c68c286ad29cc56640532100a63ebe1464cff2fcb7d7685a1926774141a78faf8bb09f1746edf4918fa1decfd25761e5ccf9ebc0531d
+  checksum: fb8b2abbb0ce5e3c6bc957ffb714b84aa2e6a9f24cf9c139bcfec33ba5e3334f61a132c606a621e04097d026c1f653fe1bda2d1c3dc47b87c9f6b00d90732daa
   languageName: node
   linkType: hard
 
@@ -931,7 +920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001394":
+"caniuse-lite@npm:^1.0.30001399":
   version: 1.0.30001399
   resolution: "caniuse-lite@npm:1.0.30001399"
   checksum: dd105b06fbbdc89867780a2f4debc3ecb184cff82f35b34aaac486628fcc9cf6bacf37573a9cc22dedc661178d460fa8401374a933cb9d2f8ee67316d98b2a8f
@@ -3247,13 +3236,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4":
-  version: 0.13.9
-  resolution: "regenerator-runtime@npm:0.13.9"
-  checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
-  languageName: node
-  linkType: hard
-
 "regexparam@npm:^2.0.0":
   version: 2.0.1
   resolution: "regexparam@npm:2.0.1"
@@ -3735,13 +3717,13 @@ __metadata:
     "@lucia-sveltekit/adapter-prisma": ^0.3.3
     "@prisma/client": ^4.3.1
     "@supabase/supabase-js": ^1.35.6
-    "@sveltejs/adapter-auto": ^1.0.0-next.73
-    "@sveltejs/kit": ^1.0.0-next.481
-    "@trpc/client": ^9.27.2
-    "@trpc/server": ^9.27.2
+    "@sveltejs/adapter-auto": ^1.0.0-next.74
+    "@sveltejs/kit": ^1.0.0-next.483
+    "@trpc/client": next
+    "@trpc/server": next
     "@typescript-eslint/eslint-plugin": ^5.37.0
     "@typescript-eslint/parser": ^5.37.0
-    autoprefixer: ^10.4.9
+    autoprefixer: ^10.4.11
     clsx: ^1.2.1
     daisyui: ^2.27.0
     dotenv: ^16.0.2
