@@ -1,8 +1,14 @@
 <script lang="ts">
   import "../app.css";
-  import { Lucia } from "lucia-sveltekit/client";
+  import { handleSilentRefresh } from "lucia-sveltekit/client";
+  import { page } from "$app/stores";
+  import { session } from "$lib/stores/user";
+
+  handleSilentRefresh();
+  $: session.set($page.data.session);
 </script>
 
-<Lucia>
+<!-- Updates UI based on auth state -->
+{#key $session}
   <slot />
-</Lucia>
+{/key}
